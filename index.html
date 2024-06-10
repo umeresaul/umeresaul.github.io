@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO SAUL UM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+  <header class="encabezado">
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="#presentacion">
+        <h2 class="navegacion__titulo">Saul Umere</h2>
+      </a>
+      <ul class="enlaces">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="principal">
+    <section class="presentacion" id="presentacion">
+      <div class="presentacion__contenedor_info">
+        <h1 class="presentacion__titulo">Soy Desarrollador</h1>
+        <p class="presentacion__parrafo">
+          Saludos muy atte. te invito a conocerme un poco mas acontinuación.
+        </p>
+        <div class="presentacion__contenedor_botones">
+          <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+          <a
+            href="./assets/docs/cv.pdf"
+            target="_blank"
+            class="boton boton_oscuro"
+            role="button"
+            >Descargar CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <article class="articulo sobre_mi" id="sobre-mi">
+      <h2 class="articulo__titulo">Un poco sobre mi</h2>
+      <div class="articulo__contenedor_descripciones">
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__porta_retrato">
+            <img
+              class="seccion_descripcion__imagen"
+              src="./assets/images/profile/historia.jpg"
+              alt="fotografia de perfil"
+              title="fotografia de perfil dia nublado"
+            />
+          </div>
+          <div
+            class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+            aria-label="descripcion personal"
+          >
+            <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+              Mi historia
+            </h3>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo"
+            >
+              Actualmente tengo 32 años y me encuentro por primer vez incursionando en el 
+              mundo de la programación gracias al informatorio.
+            </p>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo"
+            >
+              En un principio al terminar el secundario me aboque mas a todo lo 
+              referido al diseño grafico, empezando por realizar algunos cursos en instituciones privadas y
+              concluyendo luego en el cursado por tres años en la carrera misma de diseño grafico en la UNNE.
+            </p>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo"
+            >
+              Luego del cursado de la misma, termine trabajando como administrativo en una oficina privada
+              y ou que a la par seguia instruyendome  y realizando algunos trabajos relacionados al diseño grafico
+              al no ser mi trabajo principal, esto me hizo perder mucho el enfoque y la practica.
+            </p>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo"
+            >
+              Este año por azares del destino podria decir estoy desempleado a si que decidi ver el lado positivo,
+              tengo mas tiempo puedo volver a retomar mi gusto por el diseño grafico digital y ahora complementar con lo que aprendere de programación.
+            </p>
+          </div>
+        </section>
+        <section class="seccion_descripcion">
+          <div
+            class="seccion_descripcion__info scroll scroll_fino scroll_gris"
+            aria-label="descripcion personal"
+          >
+            <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+              Mis hobbies
+            </h3>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo"
+            >
+            En mis momentos de ocio realizo collages digitales mesclando personajes
+            de series dibujos anime videojuegos con entornos agenos a su universo,
+            como es el caso de esta imagen donde tome a los personajes del chavo del 8
+            y los combine con la moda hipster.
+            </p>
+            <p
+              class="seccion_descripcion__parrafo"
+              aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo"
+            >
+            Suelo disfrutar de salir andar en bici y caminar junto a mis mascotas 
+            tengo dos perros de 8 años de edad y un gato que se unio recientemente a la familia.
+            </p>
+          </div>
+          <div class="seccion_descripcion__porta_retrato">
+            <img
+              class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+              src="./assets/images/profile/hobbi.jpg"
+              alt="collage digital del chavo y kiko version hipster"
+              title="chavo del 8 hipster"
+            />
+          </div>
+        </article>
+        <article class="articulo proyectos" id="proyectos">
+          <h2 class="articulo__titulo">Mis proyectos</h2>
+          <div class="contenedor_tarjetas_grid">
+            <article
+              class="tarjeta"
+              aria-label="presentacion de proyecto personal"
+            >
+              <img
+                class="tarjeta__imagen"
+                src="./assets/images/proyectos/collage.jpg"
+                alt="collage digital"
+                title="collage digital"
+              />
+              <div class="tarjeta__contenido">
+                <h3 class="tarjeta__titulo" id="titulo_proyecto_1">COLLAGE DIGITAL</h3>
+                <span class="tarjeta__divisor"></span>
+                <p
+                  class="tarjeta__parrafo scroll scroll_fino"
+                  aria-label="descripcion de proyecto personal"
+                  aria-describedby="titulo_proyecto_1"
+                >
+                  Imagen diseñada de cero tomando elemento de series y videojuegos combinandolas con distintas modas urbanas
+                </p>
+                <a href="#" class="boton boton_oscuro" target="_blank"
+                  >Ver proyecto</a
+                >
+              </div>
+            </article>
+            <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/fotografia.jpg"
+              alt="fotografia pajaro y perro"
+              title="fotografia"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_2">fotografia </h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_2"
+              >
+                Recopilatorio de fotografias realizadas en ambiente natural urbano.
+              </p>
+              <a href="#" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+          <article
+          class="tarjeta"
+          aria-label="presentacion de proyecto personal"
+        >
+          <img
+            class="tarjeta__imagen"
+            src="./assets/images/proyectos/pequeñas ediciones para fiestas.jpg"
+            alt="banner primer año manelik y cumpleño de rossten"
+            title="edicion banner cumpleaños"
+          />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Edición Fotografica</h3>
+            <span class="tarjeta__divisor"></span>
+            <p
+              class="tarjeta__parrafo scroll scroll_fino"
+              aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_3"
+            >
+              Banner y flyer con edición de fotografica para cumpleaño de primer año y celebración de 18 años
+            </p>
+            <a href="#" class="boton boton_oscuro" target="_blank"
+              >Ver proyecto</a
+            >
+          </div>
+        </article>
+        <article
+            class="tarjeta"
+            aria-label="presentacion de proyecto personal"
+          >
+            <img
+              class="tarjeta__imagen"
+              src="./assets/images/proyectos/neagamecon.jpg"
+              alt="flyers de evento neagamecon"
+              title="neagamecon"
+            />
+            <div class="tarjeta__contenido">
+              <h3 class="tarjeta__titulo" id="titulo_proyecto_4">Flyers campaña evento</h3>
+              <span class="tarjeta__divisor"></span>
+              <p
+                class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                aria-label="descripcion de proyecto personal"
+                aria-describedby="titulo_proyecto_4"
+              >
+                flyers realizados para evento de videojuegos en diferentes formatos para uso analogico y digital.
+              </p>
+              <a href="#" class="boton" target="_blank">Ver proyecto</a>
+            </div>
+          </article>
+        </main>
+        <footer class="pie_de_pagina" role="contentinfo">
+          <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+            <ul class="enlaces enlaces_redes">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="https://github.com/umeresaul"
+                  target="_blank"
+                  ><img
+                    class="enlaces__icono"
+                    src="./assets/images/logos/github-logo.png"
+                    alt="logo de github"
+                    title="github"
+                /></a>
+              </li>
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="https://www.instagram.com/wow_loko_wow/"
+                  target="_blank"
+                >
+                  <img
+                    class="enlaces__icono"
+                    src="./assets/images/logos/ig-logo.png"
+                    alt="logo de instagram"
+                    title="instagram"
+                  />
+                </a>
+              </li>
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="https://x.com/wowlokowow"
+                  target="_blank"
+                  ><img
+                    class="enlaces__icono"
+                    src="./assets/images/logos/x-logo.png"
+                    alt="logo de X"
+                    title="X"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+            <ul class="enlaces enlaces_vertical">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="mailto:mail@mail.com"
+                  target="_blank"
+                  >Mail: arcanonecro@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="pie_de_pagina__columna" role="navigation">
+            <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+            <ul class="enlaces enlaces_vertical">
+              <li class="enlaces__item">
+                <a
+                  class="enlaces__enlace enlaces__enlace_footer"
+                  href="#presentacion"
+                  >Inicio</a
+                >
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos"
+                  >Proyectos</a
+                >
+              </li>
+            </ul>
+          </div>
+</body>
+</html>
